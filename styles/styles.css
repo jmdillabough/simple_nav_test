@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #9997956a;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  width: 90vw;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ffc107;
+}
+
+/*  Ghetto dark mode */
+
+img {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: 23%;
+  left: 50%;
+}
+
+.color {
+  position: relative;
+  width: 10rem;
+  height: 5rem;
+}
+
+.dark-body {
+  background-color: #2D4263;
+  color: white;
+}
+
+.dark-header{
+  background-color: #2D4263;
+  color: white;
+}
+
+.inactive {
+  visibility: hidden;
+}
